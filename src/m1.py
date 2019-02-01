@@ -175,8 +175,10 @@ def broken_1(circle, window):
       :type window: rg.RoseWindow
     """
     circle.attach_to(window)
-    circle2 = rg.Circle(circle.center, circle.radius * 2)
-    circle2.attach_to(window)
+    for k in range():
+        circle2 = rg.Circle(circle.center, circle.radius * 2)
+        circle2.attach_to(window)
+
     window.render()
 
 
