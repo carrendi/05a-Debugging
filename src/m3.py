@@ -41,6 +41,8 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 ###############################################################################
 
 def main():
+    run_test_broken_1()
+
     """ Calls the   TEST   functions in this module. """
 
 
