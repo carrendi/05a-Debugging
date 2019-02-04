@@ -41,6 +41,7 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 ###############################################################################
 
 def main():
+
     run_test_broken_1()
 
     """ Calls the   TEST   functions in this module. """
@@ -128,10 +129,10 @@ def broken_1(m):
         for k in range(m, (2 * m) + 1):
             if is_prime(k - 1):
                 count = count + 1
-    return count
+        return count
 
 
 # -----------------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
 # -----------------------------------------------------------------------------
-    main()
+main()
